@@ -6,7 +6,7 @@ func Test_getDecimalValue(t *testing.T) {
 	if test1() != 18880 {
 		t.Errorf("error test1.")
 	}
-	if test2() != 6 {
+	if test2() != 5 {
 		t.Errorf("error test2... ")
 	}
 }
