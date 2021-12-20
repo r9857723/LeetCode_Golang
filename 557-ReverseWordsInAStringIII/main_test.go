@@ -7,7 +7,7 @@ func Test_(t *testing.T) {
 	if rtn := reverseWords(q1); rtn != a1 {
 		t.Errorf("error with test1 = %v , wnat = %v", rtn, a1)
 	}
-	q2, a2 := test1()
+	q2, a2 := test2()
 	if rtn := reverseWords(q2); rtn != a2 {
 		t.Errorf("error with test1 = %v , wnat = %v", rtn, a2)
 	}
