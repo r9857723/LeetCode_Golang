@@ -8,7 +8,6 @@ import (
 func main() {
 
 	q := "Let's take LeetCode contest"
-	//q = "s'teL ekat edoCteeL tsetnoc"
 	fmt.Println(reverseWords(q))
 }
 
